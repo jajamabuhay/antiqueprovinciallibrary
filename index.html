@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Library System</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+
+<section class="header">
+	<nav>
+	
+     <div class="nav-links" id="navLinks">
+     	<i class="fa fa-times" onlick="hideMen()"></i>
+
+     	<ul>
+     		<li><b><a href="index.html">Home</a></b></li>
+     		<li><b><a href="aboutus.html.html">About Us</a></b></li>
+     		<li><b><a href="services.html.html">Services</a></b></li>
+     		<li><b><a href="resource.html.html">Resource</a></b></li>
+     		<li><b><a href="rulesandregulation.html.html">Rules and Regulations</a></b></li>
+     	</ul>
+     </div>
+     <i class="fa fa-bars"onclick="showMenu()"></i>
+	</nav>
+	
+</section>
+
+<!--- Library Offers --->
+
+<section class="course">
+
+      <div class="text-box">
+		<a href="" class="hero-btn">Login or Sign Up</a>
+	</div>
+	
+	<h1>Services</h1>
+	<p>The Antique Provincial Library Provides the needs of the People.</p>
+
+     <div class="row">
+     	<div class="course-col">
+     	<h3>News Papers</h3> 
+     	<p>A newspaper is a periodical publication containing written information about current events and is often typed in black ink with a white or gray background. Newspapers can cover a wide variety of fields such as politics, business, sports, art, and science.</p>    
+     </div>
+     <div class="course-col">
+     	<h3>Encyclopedia Books</h3> 
+     	<p>encyclopaedia, also spelled encyclopedia, reference work that contains information on all branches of knowledge or that treats a particular branch of knowledge in a comprehensive manner.</p>
+ </div>
+<div class="course-col">
+     	<h3>Fictional Books</h3> 
+     	<p>A fictional book is a text created specifically for a work in an imaginary narrative that is referred to, depicted, or excerpted in a story, book, film, or other fictional work, and which exists only in one or more fictional works.</p>
+
+</div>
+</section>
+
+<!--- campus --->
+
+<section class="campus">
+	<h1>Antique Provincial Library and Local Archives</h1>
+
+	<div class="row">
+         <div class="campus-col">
+         	<img src="img/image33.jpg">
+         	<div class="layer">
+         		<h3>News Paper</h3>
+         	</div>
+         </div> 
+         <div class="campus-col">
+         	<img src="img/image44.jpg">
+         	<div class="layer">
+         		<h3>Encyclopedia Books</h3>
+         	</div>
+         </div>
+         <div class="campus-col">
+         	<img src="img/image55.webp">
+         	<div class="layer">
+         		<h3>Fictional Books</h3>
+         	</div>
+         </div>
+	</div>
+	 
+</section>
+
+<!---call to action--->
+
+<section class="cta">
+	<h1>Antique Provincial Library and Local Archives</h1>
+	<a href="" class="hero-btn">CONTACT US</a>	
+</section>
+
+<!--- Footer --->
+
+<section class="footer">
+	<h4>Thank You For Visiting Please Come Again.</h4>
+</section>
+
+
+<!--------JavaScript for toggle Menu------->
+<script>
+  
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu(){
+      	navLinks.style.right = "0";
+      }
+      function hideMenu(){
+      	navLinks.style.right = "-200px";
+      }
+       
+       
+
+</script>
+
+
+</body>
+</html>

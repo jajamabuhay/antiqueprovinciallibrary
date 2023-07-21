@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Library System</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+
+<section class="sub-header">
+	<nav>
+	
+     <div class="nav-links" id="navLinks">
+     	<i class="fa fa-times" onlick="hideMen()"></i>
+
+     	<ul>
+     		<li><a href="index.html">Home</a></li>
+     		<li><a href="aboutus.html.html">About Us</a></li>
+     		<li><a href="services.html.html">Services</a></li>
+     		<li><a href="resource.html.html">Resource</a></li>
+     		<li><a href="rulesandregulation.html.html">Rules and Regulations</a></li>
+     	</ul>
+     </div>
+     <i class="fa fa-bars"onclick="showMenu()"></i>
+	</nav>
+	
+	<h1>Resource</h1>
+	
+</section>
+
+<!--- about us content --->
+
+<section class="about-us">
+	
+	<h3 style="font-size: 40px;">Resource</h3>
+	
+   <div class="row">
+   	   <div class="about-col">
+   	   	    <center>
+   	   	    <p style="font-size: 30px;">blank</p>
+   	   	    </center>
+   	   	    <center>
+   	   	    <br>
+   	   	    <h1 style="font-size: 25px;">blank</h1>
+                </br>
+                </center>
+                <center>
+   	   	    <p style="font-size: 30px;">blank</p>
+   	   	    </center>
+   	   	    <br>
+   	   	    <center>
+   	   	    <h1 style="font-size: 25px;">blank</h1>
+   	   	    </br>
+   	   	    </center>
+   	   	    <center>
+   	   	    <a href="" class="hero-btn red-btn" >Explore More</a>
+   	   	    </center>
+   	   </div>
+   </div>
+</section>
+
+
+<!--------JavaScript for toggle Menu------->
+<script>
+  
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu(){
+      	navLinks.style.right = "0";
+      }
+      function hideMenu(){
+      	navLinks.style.right = "-200px";
+      }
+       
+       
+
+</script>
+
+
+</body>
+</html>
